@@ -1,0 +1,18 @@
+$first-color: #fe8731;
+$second-color: #fff; 
+$third-color: #1e3041;
+
+#root{
+    max-width: 1245px;
+    margin: 0 auto;
+}
+
+
+
+
+
+@import 'header';
+@import 'carousel';
+@import 'cardStyle';
+@import 'product-dest';
+@import 'contato';

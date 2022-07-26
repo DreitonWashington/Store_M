@@ -1,0 +1,17 @@
+.concarousel{
+    padding-top: 120px;
+    margin: 0 auto;
+    
+    &__item{
+        width: 1245px;
+        height: 630px;
+    }
+    img{
+        width: 100%;
+    }
+    .special{
+        width: 127%;
+    }
+
+}
+@import 'header'
