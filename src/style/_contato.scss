@@ -27,4 +27,11 @@
     &__title{
         margin-top: 20px;
     }
+
+    &__midias{
+        color: $first-color;
+        background-color: $third-color;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

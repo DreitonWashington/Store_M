@@ -144,6 +144,7 @@
 }
 .card:hover {
   transform: translateY(-10px);
+  transition: all 0.5s;
 }
 
 .dest {
@@ -178,6 +179,12 @@
 }
 .contato__title {
   margin-top: 20px;
+}
+.contato__midias {
+  color: #fe8731;
+  background-color: #1e3041;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */

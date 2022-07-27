@@ -1,7 +1,7 @@
 import React from 'react';
-import imgBanner from '../img/bannerMountain.png'
-import imgBanner2 from '../img/adventureBanner.jpg'
-import imgBanner3 from '../img/saleF.jpg'
+import imgBanner from '../img/bannerMountain_m.jpg'
+import imgBanner2 from '../img/adventureBanner_m.jpg'
+import imgBanner3 from '../img/saleF_m.jpg'
 
 const Carousel = () =>{
     return(

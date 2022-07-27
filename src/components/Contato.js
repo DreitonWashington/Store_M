@@ -1,4 +1,6 @@
 import React from "react";
+import {SiInstagram} from 'react-icons/si';
+import {MdOutlineMail} from 'react-icons/md';
 
 const Contato = ()=>{
     return(
@@ -8,6 +10,11 @@ const Contato = ()=>{
                 <p>Digite seu E-mail para receber novas informações</p>
                 <input type='text' name='email' placeholder="Digite aqui"></input>
             </div>
+            <div className="contato__midias">
+                <SiInstagram/>
+                <MdOutlineMail/>
+            </div>
+            
         </div>
     )
 }
