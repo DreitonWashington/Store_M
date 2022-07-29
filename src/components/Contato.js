@@ -11,8 +11,8 @@ const Contato = ()=>{
                 <input type='text' name='email' placeholder="Digite aqui"></input>
             </div>
             <div className="contato__midias">
-                <SiInstagram/>
-                <MdOutlineMail/>
+                <a href="https://www.instagram.com" target='blank'><SiInstagram className="contato__midias--insta"/>Instagram</a>
+                <MdOutlineMail className="contato__midias--email"/><p>contato-mountainST@gmail.com.br</p>
             </div>
             
         </div>

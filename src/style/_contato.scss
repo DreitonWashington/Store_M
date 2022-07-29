@@ -33,5 +33,26 @@
         background-color: $third-color;
         display: flex;
         flex-wrap: wrap;
+
+        &--insta{
+            width: 23px;
+            height: 22px;          
+        }
+
+        a{
+            margin-right: 5px;
+            text-decoration: none;
+            color: $first-color;
+
+            &:hover{
+                color: $second-color;
+            }
+        }
+
+        &--email{
+            width: 30px;
+            height: 30px;
+            margin-top: 0px;
+        }
     }
 }
