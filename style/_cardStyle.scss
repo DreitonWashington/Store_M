@@ -1,0 +1,40 @@
+.card{
+    width: 410px;
+    height: 400px;
+    margin: 2px;
+    margin-bottom: 10px;
+    color: #1e3041;
+    cursor: pointer;
+
+    &__img{
+        height: 300px!important;
+        img{
+            width: 100%;
+        }
+    }
+    &__name{
+        margin: 0 auto;
+    }
+    &__preco{
+        margin: 0 auto;
+    }
+    &__button{
+        width: 100px;
+        height: 50px;
+        margin: 5px auto;
+        color: $second-color;
+        background-color: $first-color;
+        border: 1px solid $third-color;
+        border-radius: 5px;
+        &:hover{
+            color: $first-color;
+            background-color: $second-color;
+            border: 3px solid $third-color;
+        }
+    }
+
+    &:hover{
+        transform: translateY(-10px);
+        transition: all 0.5s;
+    }
+}
