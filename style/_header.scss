@@ -1,0 +1,50 @@
+.header{
+    
+    &__menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        background-color: $third-color;
+        z-index: 3!important;
+        nav{
+            align-self: center;
+            margin-left: 1100px;
+            ul{
+                display: flex;
+                li{
+                    color: $second-color;
+                    font-size: 20px;
+                    margin-right: 10px;
+                    list-style-type: none;
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: $first-color;
+                    }
+                    
+                    a{
+                        text-decoration: none;
+                        color: $second-color;
+                        
+                        &:hover{
+                            color: $first-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__menu__logo{
+        width: 100px;
+        cursor: pointer;
+        img{
+            width: 100%
+        }
+        img:hover{
+            width: 170px;
+        }
+    }
+}
